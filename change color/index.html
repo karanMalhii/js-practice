@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changer</title>
+    <script src="./script.js" defer></script>
+
+    <style>
+        .button {
+            height: 5rem;
+            width: 5rem;
+            border: 1px solid black;
+
+        }
+
+        .box {
+            display: flex;
+            gap: 10px;
+        }
+
+        #grey {
+            background-color: gray;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Color Scheme Switcher</h1>
+    <div class="box">
+        <span class="button" id="grey">1</span>
+        <span class="button" id="white">2</span>
+        <span class="button" id="blue">3</span>
+        <span class="button" id="yellow">4</span>
+    </div>
+    <h2>Try clicking on one of the colors above to change the background color of this page</h2>
+
+</body>
+
+</html>
